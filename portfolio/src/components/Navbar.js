@@ -100,7 +100,8 @@ const Navbar = ({ toggle }) => {
     return (
 
         <Nav className={navbar ? 'active' : ''}>
-            < Logo >
+            <Logo to="header">
+
 
                 <LogoImg className="" src={logo} alt="logo" />
 

@@ -1,5 +1,5 @@
 import * as SiIcons from 'react-icons/si'
-import * as FaIcons from 'react-icons/fa'
+import * as GoIcons from 'react-icons/go'
 import * as RiIcons from 'react-icons/ri'
 
 
@@ -13,6 +13,14 @@ export const CardData = [
 
     },
     {
+        image: <GoIcons.GoCreditCard />,
+        title: 'E-commerce UI',
+        description: 'E-commerce User Interface',
+        live: 'https://shayanvalaie.github.io/ui-commerce/',
+        gitHub: 'https://github.com/shayanvalaie/ui-commerce/'
+
+    },
+    {
         image: <RiIcons.RiBoxingFill />,
         title: 'Hustle Striking',
         description: 'E-commerce application',
@@ -20,12 +28,6 @@ export const CardData = [
         gitHub: 'https://github.com/shayanvalaie/hustle_striking'
 
     },
-    {
-        image: <FaIcons.FaReact />,
-        title: 'Portfolio Template',
-        description: 'React Portfolio Template',
-        live: 'https://shayanvalaie.github.io/portfolio/',
-        gitHub: 'https://github.com/shayanvalaie/portfolio'
 
-    }
+
 ]

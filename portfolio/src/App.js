@@ -1,7 +1,7 @@
 import "./App.css";
+
 import * as React from 'react';
 import { useState } from 'react';
-import {AnimatePresence} from "framer-motion/dist/framer-motion"; 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
@@ -47,23 +47,20 @@ function App() {
   }
   return (
     <>
-      <AnimatePresence>
-            
-        <ThemeProvider theme={theme}>
-          <CssBaseline />
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
 
-          <Navbar toggle={toggle} />
-          <Dropdown isOpen={isOpen} toggle={toggle} />
-          <Header />
+        <Navbar toggle={toggle} />
+        <Dropdown isOpen={isOpen} toggle={toggle} />
+        <Header />
 
-          <AboutMe />
-          <Services />
-          <Portfolio />
-          <Contact />
-          <Footer />
-        </ThemeProvider>
-      </AnimatePresence>
-   
+        <AboutMe />
+        <Services />
+        <Portfolio />
+        <Contact />
+        <Footer />
+      </ThemeProvider>
+
 
 
 
